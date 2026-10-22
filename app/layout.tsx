@@ -3,18 +3,25 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "")
+  : "https://lseole-aqc5.vercel.app";
+
 export const metadata: Metadata = {
   title: "DentalSEOHub | Premier Dental Marketing & SEO Directory",
   description: "Find and compare verified dental marketing agencies and SEO specialists. Data-driven practice growth, Google Maps rankings, and high-ticket patient acquisition.",
-  metadataBase: new URL("https://dentalseohub.com"),
+  metadataBase: new URL(baseUrl),
   robots: {
     index: true,
     follow: true,
   },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://dentalseohub.com",
+    url: baseUrl,
     title: "DentalSEOHub | Verified Dental Marketing & SEO Agency Directory",
     description: "Compare verified dental marketing agencies across top US metropolitan markets.",
     siteName: "DentalSEOHub",
