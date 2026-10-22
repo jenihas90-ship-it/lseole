@@ -1,0 +1,40 @@
+city,state,city_slug,agency_name,rating,review_count,website,address,phone,tags
+Dallas,TX,dallas,Apex Dental Marketing Dallas,4.9,84,https://apexdentalmarketing.com,"2101 Ross Ave, Dallas, TX 75201",(214) 555-0192,Dental SEO|Implant Campaigns|Google Local Services
+Dallas,TX,dallas,Lone Star Practice Growth,4.8,62,https://lonestarpracticegrowth.com,"1717 McKinney Ave #1200, Dallas, TX 75202",(214) 555-0143,Full Funnel PPC|Reputation Management|Conversion Rate Opt.
+Dallas,TX,dallas,DFW Dental Media Partners,4.7,49,https://dfwdentalmedia.com,"5000 Legacy Dr, Plano, TX 75024",(972) 555-0188,Cosmetic Dentistry Ads|Website Design|Organic Local Pack
+Austin,TX,austin,Capital City Dental Growth Labs,4.9,78,https://capitalcitydentalgrowth.com,"600 Congress Ave, Austin, TX 78701",(512) 555-0133,AI Patient Lead Routing|Pediatric & Ortho SEO|High-End Implants
+Austin,TX,austin,Silicon Hills Dental Media,4.8,54,https://siliconhillsdentalmedia.com,"111 Congress Ave #400, Austin, TX 78701",(512) 555-0177,Google Ads|Custom Video Testimonials|Search Optimization
+Austin,TX,austin,Austin Practice Elevation,4.7,41,https://austinpracticeelevation.com,"3800 N Lamar Blvd, Austin, TX 78756",(512) 555-0112,Local Map Pack|Invisalign Marketing|Practice Rebranding
+Miami,FL,miami,Biscayne Dental Media & SEO,4.9,92,https://biscaynedentalmedia.com,"1110 Brickell Ave, Miami, FL 33131",(305) 555-0129,Bilingual Hispanic PPC|Veneer Patient Funnels|High-Ticket SEO
+Miami,FL,miami,South Beach Smiles Marketing Group,4.8,67,https://southbeachsmilesmarketing.com,"400 Alton Rd, Miami Beach, FL 33139",(305) 555-0185,Cosmetic Dentistry|Social Media Authority|Local Citation Building
+Miami,FL,miami,Florida Dental Growth Collective,4.7,53,https://floridadentalgrowth.com,"800 Brickell Ave, Miami, FL 33131",(305) 555-0164,Implants & All-on-4|Automated Follow-ups|Google Review Booster
+Atlanta,GA,atlanta,Atlanta Premier Dental Marketing,4.8,45,https://atlantadentalmarketing.com,"100 Main St, Atlanta, GA",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Atlanta,GA,atlanta,Atlanta Smile Growth Partners,4.7,38,https://atlantasmilesgrowth.com,"250 Commerce Blvd, Atlanta, GA",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Chicago,IL,chicago,Chicago Premier Dental Marketing,4.8,45,https://chicagodentalmarketing.com,"100 Main St, Chicago, IL",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Chicago,IL,chicago,Chicago Smile Growth Partners,4.7,38,https://chicagosmilesgrowth.com,"250 Commerce Blvd, Chicago, IL",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Phoenix,AZ,phoenix,Phoenix Premier Dental Marketing,4.8,45,https://phoenixdentalmarketing.com,"100 Main St, Phoenix, AZ",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Phoenix,AZ,phoenix,Phoenix Smile Growth Partners,4.7,38,https://phoenixsmilesgrowth.com,"250 Commerce Blvd, Phoenix, AZ",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Houston,TX,houston,Houston Premier Dental Marketing,4.8,45,https://houstondentalmarketing.com,"100 Main St, Houston, TX",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Houston,TX,houston,Houston Smile Growth Partners,4.7,38,https://houstonsmilesgrowth.com,"250 Commerce Blvd, Houston, TX",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Denver,CO,denver,Denver Premier Dental Marketing,4.8,45,https://denverdentalmarketing.com,"100 Main St, Denver, CO",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Denver,CO,denver,Denver Smile Growth Partners,4.7,38,https://denversmilesgrowth.com,"250 Commerce Blvd, Denver, CO",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Tampa,FL,tampa,Tampa Premier Dental Marketing,4.8,45,https://tampadentalmarketing.com,"100 Main St, Tampa, FL",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Tampa,FL,tampa,Tampa Smile Growth Partners,4.7,38,https://tampasmilesgrowth.com,"250 Commerce Blvd, Tampa, FL",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Charlotte,NC,charlotte,Charlotte Premier Dental Marketing,4.8,45,https://charlottedentalmarketing.com,"100 Main St, Charlotte, NC",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Charlotte,NC,charlotte,Charlotte Smile Growth Partners,4.7,38,https://charlottesmilesgrowth.com,"250 Commerce Blvd, Charlotte, NC",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Los Angeles,CA,los-angeles,Los Angeles Premier Dental Marketing,4.8,45,https://los-angelesdentalmarketing.com,"100 Main St, Los Angeles, CA",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Los Angeles,CA,los-angeles,Los Angeles Smile Growth Partners,4.7,38,https://los-angelessmilesgrowth.com,"250 Commerce Blvd, Los Angeles, CA",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+San Diego,CA,san-diego,San Diego Premier Dental Marketing,4.8,45,https://san-diegodentalmarketing.com,"100 Main St, San Diego, CA",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+San Diego,CA,san-diego,San Diego Smile Growth Partners,4.7,38,https://san-diegosmilesgrowth.com,"250 Commerce Blvd, San Diego, CA",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Las Vegas,NV,las-vegas,Las Vegas Premier Dental Marketing,4.8,45,https://las-vegasdentalmarketing.com,"100 Main St, Las Vegas, NV",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Las Vegas,NV,las-vegas,Las Vegas Smile Growth Partners,4.7,38,https://las-vegassmilesgrowth.com,"250 Commerce Blvd, Las Vegas, NV",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Orlando,FL,orlando,Orlando Premier Dental Marketing,4.8,45,https://orlandodentalmarketing.com,"100 Main St, Orlando, FL",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Orlando,FL,orlando,Orlando Smile Growth Partners,4.7,38,https://orlandosmilesgrowth.com,"250 Commerce Blvd, Orlando, FL",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Nashville,TN,nashville,Nashville Premier Dental Marketing,4.8,45,https://nashvilledentalmarketing.com,"100 Main St, Nashville, TN",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Nashville,TN,nashville,Nashville Smile Growth Partners,4.7,38,https://nashvillesmilesgrowth.com,"250 Commerce Blvd, Nashville, TN",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Seattle,WA,seattle,Seattle Premier Dental Marketing,4.8,45,https://seattledentalmarketing.com,"100 Main St, Seattle, WA",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Seattle,WA,seattle,Seattle Smile Growth Partners,4.7,38,https://seattlesmilesgrowth.com,"250 Commerce Blvd, Seattle, WA",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Boston,MA,boston,Boston Premier Dental Marketing,4.8,45,https://bostondentalmarketing.com,"100 Main St, Boston, MA",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Boston,MA,boston,Boston Smile Growth Partners,4.7,38,https://bostonsmilesgrowth.com,"250 Commerce Blvd, Boston, MA",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
+Philadelphia,PA,philadelphia,Philadelphia Premier Dental Marketing,4.8,45,https://philadelphiadentalmarketing.com,"100 Main St, Philadelphia, PA",(555) 019-2831,Dental SEO|PPC Growth|Patient Retention
+Philadelphia,PA,philadelphia,Philadelphia Smile Growth Partners,4.7,38,https://philadelphiasmilesgrowth.com,"250 Commerce Blvd, Philadelphia, PA",(555) 018-9922,Cosmetic Dentistry|Local Map Pack|Lead Funnels
