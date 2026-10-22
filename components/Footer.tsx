@@ -36,6 +36,14 @@ export default function Footer() {
           </div>
 
           <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-3">Navigation & Index</h4>
+            <ul className="space-y-2 text-sm text-slate-400">
+              <li><Link href="/sitemap" className="hover:text-white transition">HTML Sitemap (All Cities)</Link></li>
+              <li><a href="/sitemap.xml" target="_blank" className="hover:text-white transition">XML Sitemap (Googlebot)</a></li>
+              <li><a href="/robots.txt" target="_blank" className="hover:text-white transition">Robots.txt</a></li>
+            </ul>
+          </div>
+          <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-3">For Agencies</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li><a href="#lead-form" className="hover:text-white transition">Claim Practice Leads</a></li>
