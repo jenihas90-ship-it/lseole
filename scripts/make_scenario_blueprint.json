@@ -1,0 +1,53 @@
+{
+  "name": "Dental SEO Lead Engine - Pay Per Lead Pipeline",
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "parameters": {},
+      "mapper": {},
+      "metadata": {
+        "designer": {
+          "x": 0,
+          "y": 0,
+          "name": "Capture Practice Lead"
+        },
+        "expect": [
+          { "name": "leadId", "type": "text", "label": "Lead ID" },
+          { "name": "practiceName", "type": "text", "label": "Practice Name" },
+          { "name": "contactName", "type": "text", "label": "Contact Name" },
+          { "name": "email", "type": "email", "label": "Email" },
+          { "name": "phone", "type": "text", "label": "Phone Number" },
+          { "name": "city", "type": "text", "label": "City" },
+          { "name": "procedureGoal", "type": "text", "label": "Procedure Goal" },
+          { "name": "monthlyBudget", "type": "text", "label": "Monthly Budget" },
+          { "name": "unlockPrice", "type": "text", "label": "Unlock Price" },
+          { "name": "timestamp", "type": "date", "label": "Timestamp" },
+          { "name": "source", "type": "text", "label": "Lead Source" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "module": "email:ActionSendAnEmail",
+      "version": 1,
+      "parameters": {},
+      "mapper": {
+        "to": ["jenihas90@gmail.com"],
+        "subject": "[HIGH-TICKET DENTAL LEAD] {{1.procedureGoal}} in {{1.city}}",
+        "content": "<div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #333;\"><h2 style=\"color: #0284c7;\">🦷 New Practice Quote Request</h2><table style=\"width: 100%; border-collapse: collapse; margin-top: 15px;\"><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Practice Name:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\">{{1.practiceName}}</td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Doctor / Contact:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\">{{1.contactName}}</td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Location:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\">{{1.city}}</td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>High-Ticket Goal:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\">{{1.procedureGoal}}</td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Stated Budget:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\">{{1.monthlyBudget}}</td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Direct Phone:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><a href=\"tel:{{1.phone}}\">{{1.phone}}</a></td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Email Address:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><a href=\"mailto:{{1.email}}\">{{1.email}}</a></td></tr><tr><td style=\"padding: 8px; border-bottom: 1px solid #eee;\"><strong>Lead ID:</strong></td><td style=\"padding: 8px; border-bottom: 1px solid #eee;\">{{1.leadId}}</td></tr></table><div style=\"margin-top: 25px; padding: 15px; background-color: #f0f9ff; border-radius: 8px; border: 1px solid #bae6fd;\"><p style=\"margin: 0; font-size: 14px;\"><strong>Monetization Value:</strong> This qualified inquiry has an unlock fee of <strong>{{1.unlockPrice}}</strong> for agency distribution.</p></div></div>"
+      },
+      "metadata": {
+        "designer": {
+          "x": 300,
+          "y": 0,
+          "name": "Send Instant Alert"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1
+  }
+}
